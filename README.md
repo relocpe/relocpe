@@ -1,12 +1,10 @@
-<p align="center">
-  <img src="assets/header.svg" alt="samevamp — macOS apps · menu bar tools · music" width="100%">
-</p>
+<div align="center">
 
+<img src="assets/header.svg" alt="samevamp" width="100%">
 
+</div>
 
-## Проекты
+macOS-приложения в меню-баре на Swift. Музыка в FL Studio.
 
-
-<br>
-
-<p align="center"><sub>☾ samevamp</sub></p>
+- [Ya.Music RPC](https://github.com/samevamp/Ya.Music-RPC) — трек из Яндекс Музыки в статусе Discord
+- [Nimbus](https://github.com/samevamp/Nimbus) — обход блокировок Discord и YouTube из меню-бара
