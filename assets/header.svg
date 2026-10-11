@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07070b"/><stop offset="0.55" stop-color="#14111f"/><stop offset="1" stop-color="#2a1b4d"/></linearGradient>
+<radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#a78bfa" stop-opacity="0.45"><animate attributeName="stop-opacity" values="0.35;0.5;0.35" dur="9s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.045"/></pattern>
+<mask id="moon"><rect width="1200" height="300" fill="#fff"/><circle cx="1038" cy="120" r="62" fill="#000"/></mask>
+<linearGradient id="fade" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff"/></linearGradient>
+</defs>
+<rect width="1200" height="300" fill="url(#bg)"/>
+<rect width="1200" height="300" fill="url(#grid)"/>
+<circle cx="990" cy="150" r="190" fill="url(#glow)"/>
+<g mask="url(#moon)"><circle cx="1000" cy="150" r="78" fill="#e9e3ff"/></g>
+<circle cx="1110" cy="70" r="1.6" fill="#e9e3ff" opacity=".7"/><circle cx="880" cy="60" r="1.2" fill="#e9e3ff" opacity=".5"/><circle cx="1130" cy="230" r="1.4" fill="#e9e3ff" opacity=".5"/><circle cx="850" cy="240" r="1" fill="#e9e3ff" opacity=".4"/>
+<rect x="72" y="92" width="36" height="3" fill="#a78bfa"/>
+<text x="68" y="188" font-family="'SF Mono','JetBrains Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="92" font-weight="700" fill="#f5f3ff" letter-spacing="-3">samevamp</text>
+<text x="72" y="236" font-family="'SF Mono','JetBrains Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="20" fill="#b9a9e8" letter-spacing="1.5">macOS apps · menu bar tools · music</text>
+</svg>
