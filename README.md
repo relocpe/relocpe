@@ -1,5 +1,5 @@
 <div align="center">
 
-<img src="assets/header-smooth.svg" alt="samevamp" width="100%">
+<img src="assets/header-cursor.svg" alt="samevamp" width="100%">
 
 </div>
